@@ -20,6 +20,7 @@ main {
     flex-direction: column;
     justify-content: center;
     padding: 10px;
+    gap: 20px
 }
 
 img {
@@ -33,13 +34,11 @@ h2 {
     font-size: 32px;
     font-weight: 400;
     color: var(--text-color);
-    margin-top: 10px;
     text-align: center;
 }
 
 .inputs {
     width: 100%;
-    margin-top: 29px;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -70,7 +69,6 @@ button {
     width: 100%;
     max-width: 290px;
     max-height: 72px;
-    margin-top: 20px;
     border-radius: 10px;
     border: none;
     background: var(--button-color);
