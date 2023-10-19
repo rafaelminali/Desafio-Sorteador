@@ -25,8 +25,8 @@ main {
 img {
     height: auto;
     width: 100%;
-    max-width: 383px;
-    max-height: 374px;
+    max-width: 344px;
+    max-height: 324px;
 }
 
 h2 {
@@ -54,7 +54,7 @@ input::placeholder {
 input {
     height: 100%;
     width: 100%;
-    max-width: 342px;
+    max-width: 290px;
     max-height: 60px;
     padding-left: 16px;
     border-radius: 14px;
@@ -68,7 +68,7 @@ input {
 button {
     height: 100%;
     width: 100%;
-    max-width: 342px;
+    max-width: 290px;
     max-height: 72px;
     margin-top: 20px;
     border-radius: 10px;
@@ -93,6 +93,7 @@ button:active {
     font-size: 25px;
     font-weight: 400;
     color: var(--text-color);
+    text-align: center;
 }
 
 .box-number {
